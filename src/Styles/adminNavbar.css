@@ -1,0 +1,39 @@
+.adminNavbar
+{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(1, 1, 58, 0.797);
+    height: 65px;
+
+    
+}
+
+.lists ul
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 450px;
+    font-weight: bold;
+}
+
+ul li
+{
+    margin-top: 30px;
+    margin-left: 50px;
+    list-style-type: none;
+    
+}
+.header h1
+{
+    color: white;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+.lists a
+{
+    color: white;
+    
+}

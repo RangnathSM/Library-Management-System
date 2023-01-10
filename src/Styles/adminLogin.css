@@ -1,0 +1,73 @@
+*
+{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+}
+
+.adminLogin
+{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 800px;
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-left: 350px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.form_input
+{
+    display: flex;
+    flex-direction:column;
+    
+}
+.email 
+{
+  display: flex;
+  flex-direction: column; 
+  font-weight: bold;
+  margin-top: 30px;
+}
+.password
+{
+  display: flex;
+  flex-direction: column; 
+  font-weight: bold;
+  margin-top: 30px;
+}
+input
+{
+    width: 300px;
+    height: 30px;
+    border-top:none ;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+.Submit
+{
+    width: 100%;
+    background-color: rgb(139, 7, 7);
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    transition: 1s;
+    border-radius: 10px;
+    box-shadow: 3px 8px 15px rgb(147, 146, 146);
+}
+
+.image img{
+    width: 110px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 100px;
+}

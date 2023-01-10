@@ -1,0 +1,70 @@
+.book_card
+{
+    
+    height: 288px;
+    width: 1300px;
+    margin: 30px;
+    
+    
+}
+
+.delete 
+{
+    padding: 10px;
+    width: 100px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: .5s; 
+}
+
+.delete:hover
+{
+    color: white;
+    background-color: rgb(101, 5, 5);
+}
+
+.read
+{
+    padding: 10px;
+    width: 100px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: .5s; 
+}
+
+.read:hover
+{
+    color: white;
+    background-color: rgb(10, 13, 169);
+}
+
+.disp
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.hh
+{
+   
+    margin-left: 40px;
+}
+
+.pic img
+{
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 200px;
+    height: 250px;
+    padding: 30px;
+}
+.pic
+{
+    background-color: whitesmoke;
+}
+
+
