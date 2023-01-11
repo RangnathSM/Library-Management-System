@@ -11,7 +11,7 @@ const AdminLogin = () =>{
     let adminLogin =(a)=>{
         a.preventDefault()
         let data ={email,password}
-        if (email== "admin@gmail.com" && password==1234)
+        if (email=="admin@gmail.com" && password==1234)
         {
             navigate('/admin/')
         }
@@ -34,9 +34,9 @@ const AdminLogin = () =>{
                     <label htmlFor="">Password</label>
                     <input type="Password" value={password}required placeholder="Enter Password" onChange={(a)=>setPassword(a.target.value)} />
                     </div>
-                    <button className="Submit">Login</button>
+                    <button className="mit">Login</button>
                 </form>
-                <div className="image">
+                <div className="ge">
                 <img src={require('../vec.jpg')} />
                 </div>
                 </div>

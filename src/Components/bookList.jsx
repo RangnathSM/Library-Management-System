@@ -1,8 +1,10 @@
 import { useState,useEffect } from "react";
 import '../Styles/bookList.css'
 import { useNavigate } from 'react-router-dom';
+import { useLocation } from "react-router-dom";
 const BookList = () => {
     let [books, setBooks]=useState([])
+    let location = useLocation()
 
     useEffect(()=>{
         let fetchData = async ()=>{
@@ -23,7 +25,11 @@ const BookList = () => {
 
     let navigate =useNavigate();
     let Read = (id) => {
+       if (location.pathname == '/admin/bookList') {
         navigate(`/admin/booklist/${id}`)
+       } else {
+          navigate(`/user/bookList/${id}`)
+       }
     }
     return ( 
         <div className="bookList">
@@ -43,7 +49,7 @@ const BookList = () => {
                             <h5>Page Count: {data.pageCount}</h5> 
                             <h5>Categories: {data.categories.toString()}</h5>
                             <button className="read" onClick={()=> Read(data.id)}>Read more</button>
-                            <button className="delete" onClick={()=>handleDelete(data.id,data.title)}>Delete</button>
+                            {location.pathname == '/admin/bookList' && <button className="delete" onClick={()=>handleDelete(data.id,data.title)}>Delete</button>}
                             </div>
                         </div>
                     </div>

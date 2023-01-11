@@ -50,7 +50,7 @@ input
     border-right: none;
     outline: none;
 }
-.submit
+.Mit
 {
     width: 100%;
     background-color: rgb(13, 4, 112);
@@ -58,6 +58,7 @@ input
     font-size: large;
     color: white;
     margin-top: 50px;
+    margin-left: 100px;
     height: 50px;
     width: 300px;
     transition: 1s;
@@ -65,9 +66,9 @@ input
     box-shadow: 3px 8px 15px rgb(147, 146, 146);
 }
 
-.image img{
+.ima img{
     width: 110px;
     height: auto;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 200px;
 }

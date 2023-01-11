@@ -19,9 +19,9 @@ const UserLogin = () => {
                     <label htmlFor="">Password</label>
                     <input type="Password" required placeholder="Enter Password"  />
                     </div>
-                    <button className="submit">Login</button>
+                    <button className="Mit">Login</button>
                 </form>
-                <div className="image">
+                <div className="ima">
                 <img src={require('../vec.jpg')} />
                 </div>
                 </div>

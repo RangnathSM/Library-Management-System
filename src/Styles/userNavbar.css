@@ -1,0 +1,26 @@
+.he h1
+{
+    margin-left: 60px;
+    margin-top: 20px;
+    color: white;
+}
+
+.LI ul 
+{
+   display: flex;
+   flex-direction: row;
+   margin-left: 800px; 
+   font-weight: bold;
+   color: white;
+}
+
+.userNavbar
+{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+.LI a
+{
+    color: white;
+}

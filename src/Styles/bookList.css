@@ -13,7 +13,8 @@
     padding: 10px;
     width: 100px;
     margin-top: 20px;
-    border: 1px solid black;
+    border: 2px solid rgb(83, 3, 3);
+    color: rgb(88, 3, 3);
     border-radius: 20px;
     font-weight: bold;
     transition: .5s; 
@@ -30,7 +31,8 @@
     padding: 10px;
     width: 100px;
     margin-top: 20px;
-    border: 1px solid black;
+    border: 1px solid rgb(19, 7, 160);
+    color: rgb(8, 8, 111);
     border-radius: 20px;
     font-weight: bold;
     transition: .5s; 

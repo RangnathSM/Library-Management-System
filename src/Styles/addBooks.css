@@ -1,10 +1,86 @@
-.addBook
+.frames
 {
-    margin-left: 600px;
+    margin-left: 500px;
+    margin-top: 30px;
+}
 
+.addBook{
+    border: 2px solid black ;
+    width: 600px;
+    height: 860px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.66);
+}
+label
+{
+    font-weight: bold;
 }
 .Add
 {
-    margin-right: 600px;
-    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+input
+{
+    width: 500px;
+}
+.title
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.authors
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.categories
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.pageCount
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.shortDescription
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.longDescription
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.thumbnailUrl
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.Addbook
+{
+    padding: 10px;
+    font-weight: bold;
+    width: 400px;
+    margin-left: 65px;
+    border: 1px solid rgb(7, 243, 15);
+    color: black;
+    border-radius: 10px;
+    transition: .5s;
+    
+}
+
+.Addbook:hover
+{
+    background-color: rgb(9, 227, 41);
+    color: white;
 }
